@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Website - Blog</title>
+		<link rel="stylesheet" href="../styles/universal.css" />
+		<link rel="stylesheet" href="../styles/blog.css" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="nav-container">
+				<div class="nav-logo">
+					<a href="index.html">MyWebsite</a>
+				</div>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="blog.html" class="nav-link active">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			<section class="blog-header">
+				<div class="container">
+					<h1>Our Blog</h1>
+					<p>Stay updated with our latest articles and insights</p>
+				</div>
+			</section>
+
+			<section class="blog-content">
+				<div class="container">
+					<div class="blog-grid">
+						<article class="blog-post">
+							<div class="post-image">
+								<div class="placeholder-image"></div>
+							</div>
+							<div class="post-content">
+								<div class="post-meta">
+									<span class="post-date">March 15, 2024</span>
+									<span class="post-category">Technology</span>
+								</div>
+								<h2>Getting Started with Web Development</h2>
+								<p>
+									Learn the fundamentals of web development and start building
+									your first website with HTML, CSS, and JavaScript.
+								</p>
+								<a href="#" class="read-more">Read More</a>
+							</div>
+						</article>
+
+						<article class="blog-post">
+							<div class="post-image">
+								<div class="placeholder-image"></div>
+							</div>
+							<div class="post-content">
+								<div class="post-meta">
+									<span class="post-date">March 12, 2024</span>
+									<span class="post-category">Design</span>
+								</div>
+								<h2>The Art of Responsive Design</h2>
+								<p>
+									Discover the principles of responsive design and how to create
+									websites that work perfectly on all devices.
+								</p>
+								<a href="#" class="read-more">Read More</a>
+							</div>
+						</article>
+
+						<article class="blog-post">
+							<div class="post-image">
+								<div class="placeholder-image"></div>
+							</div>
+							<div class="post-content">
+								<div class="post-meta">
+									<span class="post-date">March 8, 2024</span>
+									<span class="post-category">Tips</span>
+								</div>
+								<h2>10 Tips for Better Code Organization</h2>
+								<p>
+									Improve your coding skills with these practical tips for
+									organizing and structuring your code effectively.
+								</p>
+								<a href="#" class="read-more">Read More</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2024 MyWebsite. All rights reserved.</p>
+			</div>
+		</footer>
+	</body>
 </html>
