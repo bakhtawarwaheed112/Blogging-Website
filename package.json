@@ -1,12 +1,15 @@
 {
-  "name": "gitassi4",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"name": "gitassig4",
+	"version": "1.0.0",
+	"description": "A simple blogging website with three pages",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html --dist-dir dist --public-url ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bakhtawarwaheed112/Blogging-Website.git"
+	},
+	"author": "Bakhtawar Waheed",
+	"license": "MIT"
 }
